@@ -12,14 +12,31 @@ body{
     justify-content: center;
     flex-direction: column;
 }
+
 button{
     background-color: #5572d4;
-    width: 100px;
-    height: 30px;
-    margin: 10px;
+    width: 140px;
+    height: 33px;
+    margin: 17px;
     border: none;
     border-radius: 5px;
+    margin-top: 0;
+    cursor: pointer;
 }
+
+.menu{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.btn-menu{
+    width: 30vw;
+    height: 2.2em;
+    margin: 1em;
+    font-size: 1.2em;
+}
+
 .card{
     background-color: #222222;
     min-width: 70vw;

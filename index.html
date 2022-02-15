@@ -10,28 +10,15 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 </head>
 <body>
+  <header class="menu">
+    <h1>Versículos da Biblia</h1>
+    <button onclick="getInputCard();" class="btn-menu">PESQUISAR</button>
+  </header>
+  
   <div class="container">
-    <div class="card">
-      <h1>Pesquise um versiculo </h1>
-      <div class="input-box">
-        <label for="book">Livro</label>
-        <input type="text" name="book" id="book" class="input-txt">
-      </div>
-      <div class="input-box">
-        <label for="chapter">Capitulo</label>
-        <input type="text" name="chapter" id="chapter" class="input-txt">
-      </div>
-      <div class="input-box">
-        <label for="verse">Versiculo</label>
-        <input type="text" name="verse" id="verse" class="input-txt">
-      </div>
 
-      <button onclick="getVerse();">Pesquisar</button>
-    </div>
-
-    <div class="card">
-      <span id="text"></span>
-    </div>
+    <div id="content-html" ></div>
+    
   </div>
 
 </body>
